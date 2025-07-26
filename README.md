@@ -42,8 +42,14 @@ docker build --platform linux/amd64 -t solution1b:persona-ranker .
 
 ### 3. Run Processing
 
+ Linux:
 ```bash
 docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --network none solution1b:persona-ranker
+```
+
+Windows:
+```bash
+docker run --rm -v ${PWD}/input:/app/input -v ${PWD}/output:/app/output --network none solution1b:persona-ranker
 ```
 
 The program will:
