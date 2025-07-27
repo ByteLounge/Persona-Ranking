@@ -1,8 +1,3 @@
-# Document Processing Solution
-
-A persona-based document analysis system that processes PDF files and extracts relevant sections based on specified roles and tasks.
-
-## Quick Start
 
 # Document Processing Solution
 
